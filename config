@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/hyperbotauthor/pgen
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[credential]
+	helper = cache --timeout=86400
+[remote "gitlab"]
+	url = https://gitlab.com/hyperchessbotauthor/pgen
+	fetch = +refs/heads/*:refs/remotes/gitlab/*

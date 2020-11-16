@@ -1,0 +1,8 @@
+
+rm -rf .git
+
+git init
+
+cp config .git/config
+
+s/p Initial commit

@@ -1,0 +1,30 @@
+{
+  "name": "pgen",
+  "version": "1.0.0",
+  "description": "Npm package generator.",
+  "main": "pgen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperbotauthor/pgen.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "generator"
+  ],
+  "author": "hyperbotauthor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperbotauthor/pgen/issues"
+  },
+  "homepage": "https://github.com/hyperbotauthor/pgen#readme",
+  "dependencies": {
+    "@aestheticbookshelf/fileutils": "^1.0.9",
+    "argparse": "^2.0.1",
+    "node-fetch": "^2.6.1",
+    "open": "^7.3.0"
+  }
+}
