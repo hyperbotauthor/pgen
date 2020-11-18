@@ -1,5 +1,5 @@
 {
-  "name": "pgen",
+  "name": "@hyperbotauthor/pgen",
   "version": "1.0.0",
   "description": "Npm package generator.",
   "main": "pgen.js",
