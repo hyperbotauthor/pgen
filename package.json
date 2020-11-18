@@ -1,13 +1,13 @@
 {
   "name": "@hyperbotauthor/pgen",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Npm package generator.",
   "main": "pgen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "pgen": "pgen.js"
+    "pgen": "pgens.js"
   },
   "repository": {
     "type": "git",
