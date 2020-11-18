@@ -4,10 +4,14 @@ Npm package generator.
 
 ## Usage
 
-### Global
+### Set global parameters
 
 ```
 s/pgen global
 ```
 
-Set global parameters.
+### Create package
+
+```
+s/pgen create [package name]
+```
