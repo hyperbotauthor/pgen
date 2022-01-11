@@ -1,0 +1,31 @@
+{
+  "name": "pgen",
+  "version": "1.0.2",
+  "description": "Npm package generator.",
+  "keyowrds": [
+    "npm",
+    "package",
+    "generator."
+  ],
+  "contributors": [
+    "hyperbot <hyperchessbot@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/hyperbotauthor/pgen",
+  "homepage": "https://github.com/hyperbotauthor/pgen#pgen",
+  "bugs": {
+    "url": "https://github.com/hyperbotauthor/pgen/issues",
+    "email": "hyperchessbot@gmail.com"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "minimist": "^1.2.5",
+    "octokit": "^1.7.0",
+    "parse-git-config": "^3.0.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "8": "^0.0.1"
+  }
+}

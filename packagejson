@@ -1,0 +1,51 @@
+{
+  "name": "@publishvue/pgentest",
+  "version": "1.0.0",
+  "license": "MIT",
+  "contributors": [
+    "hyperbotauthor <hyperchessbotauthor@gmail.com> (https://hyperchessbotsramblings.netlify.app)"
+  ],
+  "description": "Pgen test.",
+  "keywords": [
+    "pgen",
+    "test"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "",
+  "browser": "",
+  "unpkg": "",
+  "bin": {},
+  "config": {},
+  "files": [
+    "*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperbotauthor/pgentest"
+  },
+  "homepage": "https://github.com/hyperbotauthor/pgentest/#readme",
+  "bugs": {
+    "url": "https://github.com/hyperbotauthor/pgentest/issues",
+    "email": "hyperchessbotauthor@gmail.com"
+  },
+  "scripts": {
+    "prepare": "",
+    "dev": "",
+    "build": "rollup -c",
+    "generate": "",
+    "clean": "",
+    "serve": "",
+    "prettier": "prettier -w src test",
+    "test": "jest",
+    "reset": "git fetch origin main && git reset --hard origin/main",
+    "httpserve": "http-server",
+    "prep": "yarn prettier && yarn build",
+    "watch": "rollup -c --watch",
+    "createapp": "vue create .",
+    "addts": "vue add typescript"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {}
+}
